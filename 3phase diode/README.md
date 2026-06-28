@@ -6,7 +6,7 @@ This project was developed in accordance with the Industrial Electronics Laborat
 
 ---
 
-## ?? Academic Profile
+##  Academic Profile
 * **Student Name:** THON KUOL THON KOCH[cite: 1]
 * **Student ID:** 40217001201[cite: 1]
 * **Institution:** University of Kurdistan | Faculty of Engineering[cite: 1]
@@ -17,7 +17,7 @@ This project was developed in accordance with the Industrial Electronics Laborat
 
 ---
 
-## ?? Core Project Objectives
+##  Core Project Objectives
 1. **Model and Analyze:** Comprehensively model and evaluate the steady-state performance parameters of an uncontrolled 6-pulse diode rectifier configuration[cite: 1].
 2. **Replicate Practical Conditions:** Establish a hardware-matched continuous simulation network using the MATLAB/Simulink ecosystem[cite: 1].
 3. **Evaluate Non-Ideal Effects:** Measure explicit voltage drops and minor regulation losses induced by input line matching protection resistances ($R_s = 10\ \Omega$)[cite: 1].
@@ -25,7 +25,7 @@ This project was developed in accordance with the Industrial Electronics Laborat
 
 ---
 
-## ? Theoretical Background & Circuit Topology
+##  Theoretical Background & Circuit Topology
 
 Three-phase uncontrolled rectifiers are widely utilized in heavy industrial power electronics, high-voltage DC (HVDC) transmission architectures, and variable frequency drive (VFD) front-ends[cite: 1]. Compared to conventional single-phase configurations, multi-phase rectification provides structural superiorities including a significantly higher average output voltage level, standard continuity of current flow without zero-crossing drop periods, and low voltage ripple percentages that mitigate the immediate necessity for complex smoothing filter banks[cite: 1].
 
@@ -52,7 +52,7 @@ To verify data compiled from the simulation engine, standard analytical derivati
 
 ---
 
-## ?? MATLAB/Simulink Implementation Environment
+## MATLAB/Simulink Implementation Environment
 
 The experiment is constructed inside the Simscape Electrical / Specialized Power Systems blockset framework[cite: 1]. The workspace diagram mimics an industrial test stand layout by integrating explicit protection impedances[cite: 1].
 
@@ -65,7 +65,7 @@ The experiment is constructed inside the Simscape Electrical / Specialized Power
 
 ---
 
-## ?? Experimental Simulation Protocol & Waveform Strategy
+##  Experimental Simulation Protocol & Waveform Strategy
 
 The simulator configuration utilizes continuous variable-step integration solvers (specifically optimized via `ode23tb`) over a complete time frame of $t = 0.1\text{ s}$ to capture exactly five full structural line frequency cycles[cite: 1].
 
@@ -77,7 +77,7 @@ When evaluating the generated visualization graphs from the measurement scope, t
 
 ---
 
-## ?? Quantitative Laboratory Data Logging & Validation
+## Quantitative Laboratory Data Logging & Validation
 
 The quantitative evaluation grid below catalogs and assesses simulated values directly against mathematical derivations[cite: 1].
 
@@ -92,7 +92,7 @@ The quantitative evaluation grid below catalogs and assesses simulated values di
 
 ---
 
-## ?? Academic Evaluation & Structural Questions
+## Academic Evaluation & Structural Questions
 
 ### Q1: Contrast the properties of this three-phase bridge against conventional single-phase full-wave topologies.
 **Analytical Response:** The structural transition from a single-phase bridge to a three-phase bridge introduces highly superior performance dynamics[cite: 1]. A single-phase full-wave system yields a significantly depressed average DC profile ($0.636 \times V_m$) and exhibits severe cyclic dips that force the output voltage to touch the zero-potential line twice per primary line cycle[cite: 1]. This induces an extreme theoretical ripple factor of $48.21\%$[cite: 1]. Conversely, the three-phase bridge topology splits the conduction load across a multi-phase system, lifting the minimum output profile to the peak line-to-line envelope threshold[cite: 1]. It ensures the voltage never drops below $1.5 \times V_m$, dramatically minimizing the ripple factor to a minor $4.21\%$[cite: 1]. Consequently, three-phase configurations achieve high-quality, flat DC profiles without needing oversized filter capacitors, which reduces cost and improves reliability in industrial applications[cite: 1].
@@ -102,7 +102,7 @@ The quantitative evaluation grid below catalogs and assesses simulated values di
 
 ---
 
-## ?? Execution Guide
+## Execution Guide
 1. Open **MATLAB** (Simulink environment).
 2. Load the file `three_phase_rectifier.slx`.
 3. Set simulation parameters to variable-step continuous solver (`ode23tb`) with a stop time of `0.1`.
