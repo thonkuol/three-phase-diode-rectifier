@@ -1,0 +1,13 @@
+# MATLAB temporary and configuration extensions
+*.asv
+*.mat
+*.mex*
+*.slxc
+*.simlog
+slprj/
+sfprj/
+_out/
+
+# OS-specific clutter files
+.DS_Store
+Thumbs.db
