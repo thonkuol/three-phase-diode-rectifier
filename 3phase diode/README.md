@@ -6,17 +6,6 @@ This project was developed in accordance with the Industrial Electronics Laborat
 
 ---
 
-##  Academic Profile
-* **Student Name:** THON KUOL THON KOCH[cite: 1]
-* **Student ID:** 40217001201[cite: 1]
-* **Institution:** University of Kurdistan | Faculty of Engineering[cite: 1]
-* **Department:** Electrical & Electronics Engineering[cite: 1]
-* **Lab Instructor:** Eng. Omid Eslamipour[cite: 1]
-* **Date of Simulation:** June 10, 2026[cite: 1]
-* **Reference Document:** Industrial_Electronics_Lab_Report1.pdf
-
----
-
 ##  Core Project Objectives
 1. **Model and Analyze:** Comprehensively model and evaluate the steady-state performance parameters of an uncontrolled 6-pulse diode rectifier configuration[cite: 1].
 2. **Replicate Practical Conditions:** Establish a hardware-matched continuous simulation network using the MATLAB/Simulink ecosystem[cite: 1].
